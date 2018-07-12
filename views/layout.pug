@@ -1,0 +1,41 @@
+doctype html
+html(ng-app="app")
+  head
+    title= title
+    link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400|Roboto:300,400,500")
+    link(rel="stylesheet", href="/stylesheets/bootstrap.css")
+    link(rel="stylesheet" href="/stylesheets/font-awesome.css")
+    link(rel="stylesheet" href="/stylesheets/animate.css")
+    link(rel="stylesheet", href="/stylesheets/style.css")
+  body
+
+    include nav
+    include slider
+    block header
+    block content
+
+    //include footer
+
+// JQuery
+script(type="text/javascript" src="/javascripts/jquery.min.js")
+// Bootstrap
+script(type="text/javascript" src="/javascripts/bootstrap.min.js")
+// JQuery Backstretch
+script(type="text/javascript" src="/javascripts/jquery.backstretch.min.js")
+// wowjs
+script(type="text/javascript" src="/javascripts/wow.min.js")
+// retinajs
+//script(type="text/javascript" src="/javascripts/retina.min.js")
+// waypoints
+script(type="text/javascript" src="/javascripts/jquery.waypoints.js")
+// tether
+script(type="text/javascript" src="/javascripts/tether.min.js")
+// angular
+script(type="text/javascript" src="/javascripts/angular.js")
+// lodash
+script(type="text/javascript" src="/javascripts/lodash.js")
+// angular self
+script(type="text/javascript" src="/javascripts/main.js")
+// scripts self
+script(type="text/javascript" src="/javascripts/script.js")
+    

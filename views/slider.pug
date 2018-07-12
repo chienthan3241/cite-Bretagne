@@ -1,0 +1,27 @@
+#carouselBretonen.carousel.slide(data-ride="carousel")
+  ol.carousel-indicators
+    li.active(data-target="#carouselBretonen" data-slide-to="0")
+    li(data-target="#carouselBretonen" data-slide-to="1")
+    li(data-target="#carouselBretonen" data-slide-to="2")
+  .carousel-inner
+    .carousel-item.active
+      img.d-block.w-100(src="/images/bg/l1.jpg" alt="First slide")
+      .carousel-caption.d-none.d-md-block.wow.fadeInLeft
+        h1 Gemeinsam bauen - Gemeinsam leben
+        p Bau von 26 Wohnungen als Eigentumswohnungen mit einem Gemeinschaftsraum.
+    .carousel-item
+      img.d-block.w-100(src="/images/bg/l2.jpg" alt="Second slide")
+      .carousel-caption.d-none.d-md-block
+        h1 Wohnungsgrößen von 62 bis 121 m².
+        p Die Fertigstellung ist für Jahr 2019 geplant.
+    .carousel-item
+      img.d-block.w-100(src="/images/bg/l3.jpg" alt="Third slide")
+      .carousel-caption.d-none.d-md-block
+        h1 Wir sind Cité-Bretonen
+        p Enjoy the life!!!
+  a.carousel-control-prev(href="#carouselBretonen" role="button" data-slide="prev")
+    span.carousel-control-prev-icon(aria-hidden="true")
+    span.sr-only Previous
+  a.carousel-control-next(href="#carouselBretonen" role="button" data-slide="next")
+    span.carousel-control-next-icon(aria-hidden="true")
+    span.sr-only Next
